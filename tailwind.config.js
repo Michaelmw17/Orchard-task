@@ -5,9 +5,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      textUnderlineOffset: {
+        20: '20px',
+      },
       colors: {
         'regal-red': '#CF1430',
-        'light-gray': '#C2C2C2',
+        'light-gray': '#FFFFFF',
       },
     },
     screens: {
