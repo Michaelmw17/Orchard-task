@@ -8,8 +8,8 @@ import Stew from '../public/images/Image-Stew.jpg';
 
 const BottomSection = () => {
   return (
-    <section className="py-0 pl-20 sm:pl-0">
-      <div className="container px-5 py-4 mx-auto">
+    <section className="">
+      <div className="container px-5 py-4 mx-auto py-2 pl-10 md:pl-20 sm:pl-0">
         <h2 className="uppercase text-4xl text-white font-extralight text-center">
           All the latest from aeg
         </h2>
@@ -17,7 +17,7 @@ const BottomSection = () => {
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap -m-4">
           <div className="p-4 md:w-1/3">
-            <div className="h-full rounded-xl  overflow-hidden ">
+            <div className="h-full rounded-xl overflow-hidden">
               <span className="border-b-2 border-transparent border-regal-red">
                 <Image
                   src={Food}
@@ -32,11 +32,11 @@ const BottomSection = () => {
                   Summer Lunch Menu By Mark Best
                 </h1>
                 <p className="text-base text-stone-400 font-thin  leading-relaxed mb-3">
-                  AEG ambassador Mark Best’s summer eats are guaranteed to help
-                  you make the most of the warmer weather and entertaining at
-                  home.
+                  AEG ambassador Mark Best&apos;s summer eats are guaranteed to
+                  help you make the most of the warmer weather and entertaining
+                  at home.
                 </p>
-                <div className="flex items-center flex-wrap ">
+                <div className="flex items-center flex-wrap">
                   <Link href="/SummerLunch" passHref>
                     <button
                       onClick={() => console.log('SummerLunch Button Clicked')}
@@ -66,8 +66,8 @@ const BottomSection = () => {
                   A Traditional Christmas Eve, Mark Best Style
                 </h1>
                 <p className="text-base text-stone-400 font-thin  leading-relaxed mb-3">
-                  One of Australia's best chefs and AEG ambassador, Mark Best,
-                  shares his favourite Christmas Eve menu which is sure to
+                  One of Australia&apos;s best chefs and AEG ambassador, Mark
+                  Best, shares his favourite Christmas Eve menu which is sure to
                   impress your guests.
                 </p>
                 <div className="flex items-center flex-wrap ">
@@ -84,7 +84,7 @@ const BottomSection = () => {
             </div>
           </div>
           <div className="p-4 md:w-1/3">
-            <div className="h-full rounded-xl  overflow-hidden">
+            <div className="h-full rounded-xl overflow-hidden">
               <span className="border-b-2 border-transparent border-regal-red">
                 <Image
                   className="md:h-86 w-full object-cover object-center"
