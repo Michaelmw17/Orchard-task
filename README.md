@@ -2,6 +2,8 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+[Deployed to Vercel Link](https://orchard-task.vercel.app/)
+
 ## Description
 
 This is a very simple Next.js project. It is a single page application that renders the components from the [Orchard FED test Design](https://projects.invisionapp.com/d/main/default/#/console/16828396/348908478/preview).
@@ -64,6 +66,8 @@ To learn more about Next.js, take a look at the following resources:
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
+
+[Deployed to Vercel Link](https://orchard-task.vercel.app/)
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
