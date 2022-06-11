@@ -1,11 +1,12 @@
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
 import TopSection from '../components/TopSection';
 import BottomSection from '../components/BottomSection';
-
+// import LoopingCard from '../components/LoopingCard';
+import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Orchard Task</title>
         <meta name="This is a Task for Orchard" content="Orchard Task" />
@@ -13,12 +14,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <main className="font-sans">
         <section>
-          <TopSection />
+          <Fade>
+            <TopSection />
+          </Fade>
         </section>
         <section>
-          <BottomSection />
+          <Zoom>
+            <BottomSection />
+          </Zoom>
         </section>
       </main>
       <footer></footer>

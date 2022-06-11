@@ -1,7 +1,16 @@
+import Stew from '../public/images/Image-Stew.jpg';
+import Image from 'next/image';
+
 function TasteFurther() {
   return (
     <div>
-      <h1>TasteFurther</h1>
+      <Image
+        src={Stew}
+        alt="user avatar"
+        height="492"
+        width="579"
+        loading="lazy"
+      ></Image>
     </div>
   );
 }

@@ -1,7 +1,16 @@
+import Chicken from '../public/images/Image-Chicken.jpg';
+import Image from 'next/image';
+
 function ChristmasEve() {
   return (
     <div>
-      <h1>ChristmasEve</h1>
+      <Image
+        src={Chicken}
+        alt="user avatar"
+        height="492"
+        width="579"
+        loading="lazy"
+      ></Image>
     </div>
   );
 }

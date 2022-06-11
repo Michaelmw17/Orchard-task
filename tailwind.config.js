@@ -10,7 +10,6 @@ module.exports = {
       },
       colors: {
         'regal-red': '#CF1430',
-        'light-gray': '#FFFFFF',
       },
     },
     screens: {
