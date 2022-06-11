@@ -87,11 +87,11 @@ const TopSection = () => {
               <div className="space-y-2">
                 <div className="space-y-4 py-4">
                   <span className="underline underline-offset-8 md:underline-offset-20 decoration-1 decoration-white">
-                    <h4 className="tracking-widest text-2xl font-extralight text-gray-300  text-zinc-400  content-center p-6 py-4 mb-0 md:mb-10 md:p-0">
+                    <h4 className="tracking-widest text-2xl font-extralight  text-slate-300  content-center p-6 py-4 mb-0 md:mb-10 md:p-0">
                       ANSWER YOUR BODY&apos;S NEEDS
                     </h4>
                   </span>
-                  <p className="leading-loose text-zinc-400 font-light p-6 py-4 md:p-0 mb-0 md:mb-10 w-96">
+                  <p className="leading-loose text-gray-300 font-light p-6 py-4 md:p-0 mb-0 md:mb-10 w-96">
                     The way ingredients are sourced affects the way we nourish
                     our bodies. Author Mark Schatzer believes our body naturally
                     devolops an appetite for the foods and nutrients it needs to
