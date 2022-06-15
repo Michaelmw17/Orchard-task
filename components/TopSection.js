@@ -20,7 +20,7 @@ const TopSection = () => {
     <section>
       <div className="container m-auto grid gap-20 w-100 px-2 text-gray-600 md:px-0 xl:px-0">
         <div className="grid gap-0 md:ml-16 lg:grid-cols-2">
-          <div className="relative p-12 pl-2 pr-2 md:pr-0 gap-2 mr-4 md:mr-8 rounded-xl group flex space-x-2 hover:rounded-2xl">
+          <div className="relative p-12 pl-2 pr-6 md:pr-0 gap-2 mr-4 md:mr-8 rounded-xl group flex space-x-2 hover:rounded-2xl">
             <div className="grid rounded-xl group flex hover:rounded-2x sm:px-0">
               <Image
                 src={imgArray[0]}
