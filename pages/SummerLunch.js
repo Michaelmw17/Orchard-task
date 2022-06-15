@@ -6,7 +6,7 @@ function SummerLunch() {
     <div>
       <Image
         src={Food}
-        alt="user avatar"
+        alt="Food"
         height="492"
         width="579"
         loading="lazy"

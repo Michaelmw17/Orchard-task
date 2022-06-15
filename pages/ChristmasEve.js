@@ -6,7 +6,7 @@ function ChristmasEve() {
     <div>
       <Image
         src={Chicken}
-        alt="user avatar"
+        alt="Chicken"
         height="492"
         width="579"
         loading="lazy"

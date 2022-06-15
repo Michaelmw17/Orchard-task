@@ -6,7 +6,7 @@ function TasteFurther() {
     <div>
       <Image
         src={Stew}
-        alt="user avatar"
+        alt="Stew"
         height="492"
         width="579"
         loading="lazy"
