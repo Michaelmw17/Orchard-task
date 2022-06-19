@@ -1,9 +1,9 @@
 import Head from 'next/head';
 import TopSection from '../components/TopSection';
 import BottomSection from '../components/BottomSection';
-// import LoopingCard from '../components/LoopingCard';
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
+
 export default function Home() {
   return (
     <div>
